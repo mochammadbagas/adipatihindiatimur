@@ -1,20 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from '@/components/ui/accordion';
-
 import { Button } from '@/components/ui/button';
-import {
-    ArrowUpRight,
-    ArrowUpRightFromSquare,
-    Copy,
-    Download,
-} from 'lucide-react';
+import { ArrowUpRight, Copy, Download } from 'lucide-react';
 
 export default function Home() {
     return (
@@ -25,7 +12,7 @@ export default function Home() {
                     <AvatarFallback>MB</AvatarFallback>
                 </Avatar>
                 <div className='flex flex-col items-center'>
-                    <h4 className='scroll-m-20 text-xl font-semibold tracking-tight'>
+                    <h4 className='scroll-m-20 text-xl font-semibold tracking-wider'>
                         Mochammad Bagas
                     </h4>
                     <p className=''>Front-end Engineering</p>
